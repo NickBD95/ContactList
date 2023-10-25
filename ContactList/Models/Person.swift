@@ -13,10 +13,7 @@ struct Person {
     var phone: String
     var email: String
     
-    static func getShuffledArray(_ array: [String]) -> [String] {
-       let newArray = array.shuffled()
-        return newArray
-    }
+    
 
 }
 
@@ -39,6 +36,11 @@ extension Person {
         
     }
   
+    static func getShuffledArray(_ array: [String]) -> [String] {
+       let newArray = array.shuffled()
+        return newArray
+    }
+    
 }
 
 
